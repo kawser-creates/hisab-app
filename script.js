@@ -10,7 +10,7 @@
    detects a secret key. Access is limited by the Row Level Security (RLS)
    policies from setup.sql, not by hiding the publishable key.
    ===================================================================== */
-const SUPABASE_URL = 'https://qkprwxjaargygvsgzreh.supabase.co/rest/v1/ ';
+const SUPABASE_URL = 'https://qkprwxjaargygvsgzreh.supabase.co ';
 const SUPABASE_KEY = 'sb_publishable_D3VzS5hdryfgdtO6gNFCBw_FUsNUl6r';
 /* Table and row that hold the shared state (public.hisab_state, column "state" = jsonb).
    The whole app state lives in ONE row; change ROW_ID only if your row uses another id. */
